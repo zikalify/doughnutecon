@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Doughnut Economy by Country — Live Data</title>
-  <meta name="description" content="Country doughnuts with live World Bank social data + Leeds ecological baseline. A GitHub-Pages-ready clone of the Felix Surjadjaja visualisation.">
+  <meta name="description" content="Country doughnuts with live World Bank data, footprint accounts and published boundaries. A GitHub-Pages-ready visualisation.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,7 +33,9 @@
     </section>
 
     <section class="layout">
-      <div id="chart-area"></div>
+      <div id="chart-area">
+        <div id="loader" class="loader"><span class="spinner"></span><span id="loader-text">Loading…</span></div>
+      </div>
       <aside id="detail" class="detail">
         <h2 id="detail-title">Pick a country</h2>
         <div id="detail-body"><p>Loading…</p></div>
