@@ -18,8 +18,19 @@ select { font-size:1rem; padding:9px 12px; min-width:260px; border-radius:8px; b
 .status { font-size:.88rem; color:var(--muted); }
 .layout { display:grid; grid-template-columns: minmax(0,1fr) 350px; gap:20px; align-items:start; }
 @media (max-width:1000px){ .layout{ grid-template-columns:1fr; } }
-#chart-area { position:relative; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:6px; min-height:420px; }
+#chart-area { position:relative; background:#F5F1EA; border:1px solid var(--line); border-radius:14px; padding:6px; min-height:420px; }
 #chart-area svg { width:100%; height:auto; display:block; }
+/* Caldec doughnut typography */
+.dough-svg .cat-label { font-family:'Source Serif 4', Georgia, serif; font-size:27px; letter-spacing:.01em; }
+.dough-svg .cat-label.inner { font-size:23px; }
+.dough-svg .ring-title { font-family:Inter, system-ui, sans-serif; font-size:20px; font-weight:600; letter-spacing:.32em; }
+.dough-svg .band-headline { font-family:'Source Serif 4', Georgia, serif; font-style:italic; font-size:37px; }
+.dough-svg .wedge-num { font-family:Inter, system-ui, sans-serif; font-size:15px; font-weight:700; }
+.dough-svg .wedge { cursor:pointer; }
+.dough-svg .center-name { font-family:'Source Serif 4', Georgia, serif; font-size:34px; font-weight:700; fill:#1F1D1A; }
+.dough-svg .center-sub { font-family:Inter, system-ui, sans-serif; font-size:17px; font-weight:600; }
+.row.flash { animation:rowflash 1.8s ease; border-radius:8px; }
+@keyframes rowflash { 0%,60% { background:#fdf0e3; } 100% { background:transparent; } }
 .loader { position:absolute; inset:0; display:flex; gap:12px; align-items:center; justify-content:center;
   background:rgba(255,255,255,.82); border-radius:14px; font-size:.95rem; color:var(--muted); z-index:5; }
 .loader[hidden] { display:none; }
@@ -48,6 +59,5 @@ select { font-size:1rem; padding:9px 12px; min-width:260px; border-radius:8px; b
 .tooltip b { font-size:.88rem; }
 .foot { font-size:.76rem; color:var(--muted); margin-top:20px; line-height:1.6; }
 .foot a { color:var(--green-dark); }
-.bar { cursor:pointer; }
-.bar:hover { stroke:#111 !important; stroke-width:2.5 !important; }
-svg text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; user-select:none; }
+.dough-svg .wedge:hover path { stroke:#1F1D1A !important; stroke-width:2.2 !important; }
+svg text { user-select:none; }
