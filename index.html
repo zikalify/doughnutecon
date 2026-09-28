@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doughnut Economy by Country — Live Data</title>
+  <meta name="description" content="Country doughnuts with live World Bank social data + Leeds ecological baseline. A GitHub-Pages-ready clone of the Felix Surjadjaja visualisation.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>Doughnut Economy by Country <span class="pill">live data</span></h1>
+      <p class="lede">
+        Visualize the doughnut of each country, and compare social-foundation and
+        ecological-ceiling performance relative to their boundaries.
+        An ideal society falls within the green doughnut. Red shows the magnitude
+        of shortfall (inside) or overshoot (outside).
+        Hover or tap a bar for details.
+      </p>
+      <p class="sub">
+        Clone of
+        <a href="https://doughnut-economy-fxs7576.netlify.app/" target="_blank" rel="noopener">doughnut-economy-fxs7576.netlify.app</a>
+        (static, last updated 2022-08-27, data ~2018–2021) — rebuilt here with
+        <strong>live</strong> World Bank data for the social foundation.
+      </p>
+    </header>
+
+    <section class="controls">
+      <label for="country-dropdown">Country</label>
+      <select id="country-dropdown"></select>
+      <span id="status" class="status">Loading…</span>
+    </section>
+
+    <section class="layout">
+      <div id="chart-area"></div>
+      <aside id="detail" class="detail">
+        <h2 id="detail-title">Pick a country</h2>
+        <div id="detail-body"><p>Loading…</p></div>
+        <h3>Boundaries (outer ring, 1.0 = safe)</h3>
+        <div id="co2-live">
+          CO₂ 1.6 t/cap · PM2.5 5 µg/m³ (WHO) · water stress 25% (FAO) ·
+          freshwater 1700 m³/cap (Falkenmark) · materials 7.2 t/cap ·
+          eco-footprint 1.7 gha/cap (O’Neill et al. 2018).
+        </div>
+      </aside>
+    </section>
+
+    <section class="legend">
+      <span><i class="sw safe"></i> safe / within doughnut</span>
+      <span><i class="sw bad"></i> shortfall / overshoot</span>
+      <span><i class="sw missing"></i> missing data</span>
+      <span><i class="sw boundary"></i> boundary</span>
+    </section>
+
+    <footer class="foot">
+      <hr>
+      <p>Social foundation: <strong>live</strong> via <a href="https://data.worldbank.org/" target="_blank" rel="noopener">World Bank WDI API</a>.
+      Ecological outer ring: 4 live World Bank pressures (CO₂, PM2.5, water stress, freshwater per capita)
+      + ecological footprint from the York University National Footprint Accounts bulk release (refreshed yearly by automation)
+      + material footprint (baseline seed; UN SDG API currently publishes only regional aggregates for it).
+      Every wedge shows its year, value, boundary and source.</p>
+      <p>Concept: Kate Raworth. Original visualisation: Felix Surjadjaja (MIT). This rebuild: plain HTML/CSS/JS, no build step, GitHub Pages ready. CC-BY-SA 4.0.</p>
+    </footer>
+  </main>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

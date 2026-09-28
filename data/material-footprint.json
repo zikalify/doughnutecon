@@ -1,0 +1,884 @@
+{
+ "AFG": {
+  "name": "Afghanistan",
+  "tonnes": 1.37,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ALB": {
+  "name": "Albania",
+  "tonnes": 14.4,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "DZA": {
+  "name": "Algeria",
+  "tonnes": 3.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "AGO": {
+  "name": "Angola",
+  "tonnes": 3.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ARG": {
+  "name": "Argentina",
+  "tonnes": 16.27,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ARM": {
+  "name": "Armenia",
+  "tonnes": 8.57,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "AUS": {
+  "name": "Australia",
+  "tonnes": 47.45,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "AUT": {
+  "name": "Austria",
+  "tonnes": 38.59,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "AZE": {
+  "name": "Azerbaijan",
+  "tonnes": 7.42,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BGD": {
+  "name": "Bangladesh",
+  "tonnes": 2.88,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BEL": {
+  "name": "Belgium",
+  "tonnes": 26.5,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BEN": {
+  "name": "Benin",
+  "tonnes": 4.97,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BOL": {
+  "name": "Bolivia",
+  "tonnes": 5.98,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BIH": {
+  "name": "Bosnia and Herzegovina",
+  "tonnes": 11.02,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BWA": {
+  "name": "Botswana",
+  "tonnes": 40.54,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BRA": {
+  "name": "Brazil",
+  "tonnes": 21.02,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BGR": {
+  "name": "Bulgaria",
+  "tonnes": 13.61,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BFA": {
+  "name": "Burkina Faso",
+  "tonnes": 4.32,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "BDI": {
+  "name": "Burundi",
+  "tonnes": 1.87,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "KHM": {
+  "name": "Cambodia",
+  "tonnes": 3.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CMR": {
+  "name": "Cameroon",
+  "tonnes": 2.09,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CAN": {
+  "name": "Canada",
+  "tonnes": 39.31,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CAF": {
+  "name": "Central African Republic",
+  "tonnes": 2.38,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TCD": {
+  "name": "Chad",
+  "tonnes": 1.8,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CHL": {
+  "name": "Chile",
+  "tonnes": 19.3,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CHN": {
+  "name": "China",
+  "tonnes": 24.77,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "COL": {
+  "name": "Colombia",
+  "tonnes": 11.88,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "COD": {
+  "name": "Congo, Dem. Rep.",
+  "tonnes": 2.3,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "COG": {
+  "name": "Congo, Rep.",
+  "tonnes": 2.59,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CRI": {
+  "name": "Costa Rica",
+  "tonnes": 9.07,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CIV": {
+  "name": "Cote d'Ivoire",
+  "tonnes": 0.79,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "HRV": {
+  "name": "Croatia",
+  "tonnes": 17.35,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CUB": {
+  "name": "Cuba",
+  "tonnes": 9.22,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CZE": {
+  "name": "Czech Republic",
+  "tonnes": 25.34,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "DNK": {
+  "name": "Denmark",
+  "tonnes": 27.43,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "DOM": {
+  "name": "Dominican Republic",
+  "tonnes": 7.49,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ECU": {
+  "name": "Ecuador",
+  "tonnes": 12.02,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "EGY": {
+  "name": "Egypt, Arab Rep.",
+  "tonnes": 5.47,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SLV": {
+  "name": "El Salvador",
+  "tonnes": 7.56,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "EST": {
+  "name": "Estonia",
+  "tonnes": 31.61,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SWZ": {
+  "name": "Eswatini",
+  "tonnes": 13.1,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ETH": {
+  "name": "Ethiopia",
+  "tonnes": 0.79,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "FIN": {
+  "name": "Finland",
+  "tonnes": 40.03,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "FRA": {
+  "name": "France",
+  "tonnes": 24.77,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GAB": {
+  "name": "Gabon",
+  "tonnes": 5.11,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GMB": {
+  "name": "Gambia, The",
+  "tonnes": 2.45,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GEO": {
+  "name": "Georgia",
+  "tonnes": 8.21,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "DEU": {
+  "name": "Germany",
+  "tonnes": 25.2,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GHA": {
+  "name": "Ghana",
+  "tonnes": 3.96,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GRC": {
+  "name": "Greece",
+  "tonnes": 30.17,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GTM": {
+  "name": "Guatemala",
+  "tonnes": 4.32,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GIN": {
+  "name": "Guinea",
+  "tonnes": 2.74,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "HTI": {
+  "name": "Haiti",
+  "tonnes": 1.51,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "HND": {
+  "name": "Honduras",
+  "tonnes": 4.68,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "HUN": {
+  "name": "Hungary",
+  "tonnes": 16.34,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "IND": {
+  "name": "India",
+  "tonnes": 5.47,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "IDN": {
+  "name": "Indonesia",
+  "tonnes": 6.77,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "IRN": {
+  "name": "Iran, Islamic Rep.",
+  "tonnes": 15.77,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "IRQ": {
+  "name": "Iraq",
+  "tonnes": 3.17,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "IRL": {
+  "name": "Ireland",
+  "tonnes": 24.12,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ISR": {
+  "name": "Israel",
+  "tonnes": 27.22,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ITA": {
+  "name": "Italy",
+  "tonnes": 23.26,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "JAM": {
+  "name": "Jamaica",
+  "tonnes": 9.07,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "JPN": {
+  "name": "Japan",
+  "tonnes": 28.44,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "JOR": {
+  "name": "Jordan",
+  "tonnes": 7.63,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "KAZ": {
+  "name": "Kazakhstan",
+  "tonnes": 20.16,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "KEN": {
+  "name": "Kenya",
+  "tonnes": 3.31,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PRK": {
+  "name": "Korea, Dem. People's Rep.",
+  "tonnes": 1.15,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "KOR": {
+  "name": "Korea, Rep.",
+  "tonnes": 32.69,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "KGZ": {
+  "name": "Kyrgyz Republic",
+  "tonnes": 9.58,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LAO": {
+  "name": "Lao PDR",
+  "tonnes": 9.94,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LVA": {
+  "name": "Latvia",
+  "tonnes": 27.79,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LBN": {
+  "name": "Lebanon",
+  "tonnes": 15.55,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LSO": {
+  "name": "Lesotho",
+  "tonnes": 13.46,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LBR": {
+  "name": "Liberia",
+  "tonnes": 1.94,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LBY": {
+  "name": "Libya",
+  "tonnes": 4.18,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LTU": {
+  "name": "Lithuania",
+  "tonnes": 45.36,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MDG": {
+  "name": "Madagascar",
+  "tonnes": 0.94,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MWI": {
+  "name": "Malawi",
+  "tonnes": 1.44,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MYS": {
+  "name": "Malaysia",
+  "tonnes": 27.0,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MLI": {
+  "name": "Mali",
+  "tonnes": 5.18,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MRT": {
+  "name": "Mauritania",
+  "tonnes": 2.95,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MUS": {
+  "name": "Mauritius",
+  "tonnes": 22.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MEX": {
+  "name": "Mexico",
+  "tonnes": 11.3,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MDA": {
+  "name": "Moldova",
+  "tonnes": 4.03,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MNG": {
+  "name": "Mongolia",
+  "tonnes": 14.83,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MAR": {
+  "name": "Morocco",
+  "tonnes": 4.25,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MOZ": {
+  "name": "Mozambique",
+  "tonnes": 2.23,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MMR": {
+  "name": "Myanmar",
+  "tonnes": 1.58,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NAM": {
+  "name": "Namibia",
+  "tonnes": 10.51,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NPL": {
+  "name": "Nepal",
+  "tonnes": 3.24,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NLD": {
+  "name": "Netherlands",
+  "tonnes": 30.24,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NZL": {
+  "name": "New Zealand",
+  "tonnes": 27.22,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NIC": {
+  "name": "Nicaragua",
+  "tonnes": 4.68,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NER": {
+  "name": "Niger",
+  "tonnes": 3.67,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NGA": {
+  "name": "Nigeria",
+  "tonnes": 2.66,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "MKD": {
+  "name": "North Macedonia",
+  "tonnes": 14.98,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "NOR": {
+  "name": "Norway",
+  "tonnes": 42.55,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "OMN": {
+  "name": "Oman",
+  "tonnes": 12.1,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PAK": {
+  "name": "Pakistan",
+  "tonnes": 3.38,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PAN": {
+  "name": "Panama",
+  "tonnes": 9.0,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PNG": {
+  "name": "Papua New Guinea",
+  "tonnes": 1.08,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PRY": {
+  "name": "Paraguay",
+  "tonnes": 20.3,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PER": {
+  "name": "Peru",
+  "tonnes": 12.17,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PHL": {
+  "name": "Philippines",
+  "tonnes": 4.9,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "POL": {
+  "name": "Poland",
+  "tonnes": 30.67,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "PRT": {
+  "name": "Portugal",
+  "tonnes": 20.81,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "QAT": {
+  "name": "Qatar",
+  "tonnes": 14.62,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ROU": {
+  "name": "Romania",
+  "tonnes": 18.14,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "RUS": {
+  "name": "Russian Federation",
+  "tonnes": 10.66,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "RWA": {
+  "name": "Rwanda",
+  "tonnes": 3.53,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SAU": {
+  "name": "Saudi Arabia",
+  "tonnes": 13.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SEN": {
+  "name": "Senegal",
+  "tonnes": 2.81,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SRB": {
+  "name": "Serbia",
+  "tonnes": 19.15,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SLE": {
+  "name": "Sierra Leone",
+  "tonnes": 9.58,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SGP": {
+  "name": "Singapore",
+  "tonnes": 97.78,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SVK": {
+  "name": "Slovak Republic",
+  "tonnes": 38.81,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SVN": {
+  "name": "Slovenia",
+  "tonnes": 29.3,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SOM": {
+  "name": "Somalia",
+  "tonnes": 2.74,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ZAF": {
+  "name": "South Africa",
+  "tonnes": 9.58,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SSD": {
+  "name": "South Sudan",
+  "tonnes": 1.66,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ESP": {
+  "name": "Spain",
+  "tonnes": 26.06,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "LKA": {
+  "name": "Sri Lanka",
+  "tonnes": 5.11,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SDN": {
+  "name": "Sudan",
+  "tonnes": 5.11,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SWE": {
+  "name": "Sweden",
+  "tonnes": 36.0,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "CHE": {
+  "name": "Switzerland",
+  "tonnes": 35.78,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "SYR": {
+  "name": "Syrian Arab Republic",
+  "tonnes": 3.74,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TJK": {
+  "name": "Tajikistan",
+  "tonnes": 4.03,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TZA": {
+  "name": "Tanzania",
+  "tonnes": 1.66,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "THA": {
+  "name": "Thailand",
+  "tonnes": 16.13,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TGO": {
+  "name": "Togo",
+  "tonnes": 2.88,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TTO": {
+  "name": "Trinidad and Tobago",
+  "tonnes": 6.05,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TUN": {
+  "name": "Tunisia",
+  "tonnes": 6.84,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TUR": {
+  "name": "Turkiye",
+  "tonnes": 17.64,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "TKM": {
+  "name": "Turkmenistan",
+  "tonnes": 23.33,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "UGA": {
+  "name": "Uganda",
+  "tonnes": 3.02,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "UKR": {
+  "name": "Ukraine",
+  "tonnes": 12.82,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ARE": {
+  "name": "United Arab Emirates",
+  "tonnes": 53.71,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "GBR": {
+  "name": "United Kingdom",
+  "tonnes": 25.2,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "USA": {
+  "name": "United States",
+  "tonnes": 36.58,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "URY": {
+  "name": "Uruguay",
+  "tonnes": 40.68,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "UZB": {
+  "name": "Uzbekistan",
+  "tonnes": 6.26,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "VEN": {
+  "name": "Venezuela, RB",
+  "tonnes": 9.07,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "VNM": {
+  "name": "Vietnam",
+  "tonnes": 16.13,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "YEM": {
+  "name": "Yemen, Rep.",
+  "tonnes": 1.22,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ZMB": {
+  "name": "Zambia",
+  "tonnes": 3.89,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ },
+ "ZWE": {
+  "name": "Zimbabwe",
+  "tonnes": 4.39,
+  "year": 2021,
+  "source": "Leeds-2021-ratio x 7.2t boundary (seed; auto-refresh pending)"
+ }
+}

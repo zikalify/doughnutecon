@@ -1,0 +1,657 @@
+{
+ "AFG": {
+  "name": "Afghanistan",
+  "gha": 0.77,
+  "year": 2025
+ },
+ "ALB": {
+  "name": "Albania",
+  "gha": 2.4,
+  "year": 2025
+ },
+ "AGO": {
+  "name": "Angola",
+  "gha": 0.71,
+  "year": 2025
+ },
+ "ATG": {
+  "name": "Antigua and Barbuda",
+  "gha": 4.72,
+  "year": 2025
+ },
+ "ARG": {
+  "name": "Argentina",
+  "gha": 2.67,
+  "year": 2025
+ },
+ "AUT": {
+  "name": "Austria",
+  "gha": 5.38,
+  "year": 2025
+ },
+ "BGD": {
+  "name": "Bangladesh",
+  "gha": 0.91,
+  "year": 2025
+ },
+ "BRB": {
+  "name": "Barbados",
+  "gha": 4.49,
+  "year": 2025
+ },
+ "BLR": {
+  "name": "Belarus",
+  "gha": 4.12,
+  "year": 2025
+ },
+ "BEL": {
+  "name": "Belgium",
+  "gha": 4.82,
+  "year": 2025
+ },
+ "BEN": {
+  "name": "Benin",
+  "gha": 1.04,
+  "year": 2025
+ },
+ "BTN": {
+  "name": "Bhutan",
+  "gha": 4.77,
+  "year": 2025
+ },
+ "BOL": {
+  "name": "Bolivia",
+  "gha": 2.57,
+  "year": 2025
+ },
+ "BWA": {
+  "name": "Botswana",
+  "gha": 2.15,
+  "year": 2025
+ },
+ "BRA": {
+  "name": "Brazil",
+  "gha": 2.44,
+  "year": 2025
+ },
+ "BFA": {
+  "name": "Burkina Faso",
+  "gha": 1.14,
+  "year": 2025
+ },
+ "BDI": {
+  "name": "Burundi",
+  "gha": 0.62,
+  "year": 2025
+ },
+ "KHM": {
+  "name": "Cambodia",
+  "gha": 1.58,
+  "year": 2025
+ },
+ "CMR": {
+  "name": "Cameroon",
+  "gha": 1.03,
+  "year": 2025
+ },
+ "CAN": {
+  "name": "Canada",
+  "gha": 6.62,
+  "year": 2025
+ },
+ "CAF": {
+  "name": "Central African Republic",
+  "gha": 1.89,
+  "year": 2025
+ },
+ "TCD": {
+  "name": "Chad",
+  "gha": 1.17,
+  "year": 2025
+ },
+ "CHL": {
+  "name": "Chile",
+  "gha": 3.76,
+  "year": 2025
+ },
+ "CHN": {
+  "name": "China",
+  "gha": 3.76,
+  "year": 2025
+ },
+ "COL": {
+  "name": "Colombia",
+  "gha": 1.85,
+  "year": 2025
+ },
+ "COG": {
+  "name": "Congo",
+  "gha": 0.97,
+  "year": 2025
+ },
+ "COD": {
+  "name": "Congo, Democratic Republic of",
+  "gha": 0.65,
+  "year": 2025
+ },
+ "CRI": {
+  "name": "Costa Rica",
+  "gha": 2.62,
+  "year": 2025
+ },
+ "CIV": {
+  "name": "C\u00f4te d'Ivoire",
+  "gha": 1.15,
+  "year": 2025
+ },
+ "HRV": {
+  "name": "Croatia",
+  "gha": 4.76,
+  "year": 2025
+ },
+ "CUB": {
+  "name": "Cuba",
+  "gha": 1.7,
+  "year": 2025
+ },
+ "CYP": {
+  "name": "Cyprus",
+  "gha": 4.0,
+  "year": 2025
+ },
+ "CZE": {
+  "name": "Czech Republic",
+  "gha": 5.05,
+  "year": 2025
+ },
+ "DNK": {
+  "name": "Denmark",
+  "gha": 6.45,
+  "year": 2025
+ },
+ "DOM": {
+  "name": "Dominican Republic",
+  "gha": 2.3,
+  "year": 2025
+ },
+ "EGY": {
+  "name": "Egypt",
+  "gha": 1.36,
+  "year": 2025
+ },
+ "SLV": {
+  "name": "El Salvador",
+  "gha": 2.15,
+  "year": 2025
+ },
+ "ERI": {
+  "name": "Eritrea",
+  "gha": 0.71,
+  "year": 2025
+ },
+ "EST": {
+  "name": "Estonia",
+  "gha": 6.67,
+  "year": 2025
+ },
+ "SWZ": {
+  "name": "Eswatini",
+  "gha": 1.82,
+  "year": 2025
+ },
+ "ETH": {
+  "name": "Ethiopia",
+  "gha": 0.88,
+  "year": 2025
+ },
+ "NULL": {
+  "name": "Ethiopia PDR",
+  "gha": 1.24,
+  "year": 1992
+ },
+ "FRO": {
+  "name": "Faroe Islands",
+  "gha": 52.14,
+  "year": 2025
+ },
+ "FJI": {
+  "name": "Fiji",
+  "gha": 3.12,
+  "year": 2025
+ },
+ "FRA": {
+  "name": "France",
+  "gha": 4.45,
+  "year": 2025
+ },
+ "DEU": {
+  "name": "Germany",
+  "gha": 3.78,
+  "year": 2025
+ },
+ "GHA": {
+  "name": "Ghana",
+  "gha": 1.9,
+  "year": 2025
+ },
+ "GRC": {
+  "name": "Greece",
+  "gha": 3.56,
+  "year": 2025
+ },
+ "GRD": {
+  "name": "Grenada",
+  "gha": 3.68,
+  "year": 2025
+ },
+ "GIN": {
+  "name": "Guinea",
+  "gha": 1.75,
+  "year": 2025
+ },
+ "HTI": {
+  "name": "Haiti",
+  "gha": 0.62,
+  "year": 2025
+ },
+ "ISL": {
+  "name": "Iceland",
+  "gha": 23.37,
+  "year": 2025
+ },
+ "IND": {
+  "name": "India",
+  "gha": 1.13,
+  "year": 2025
+ },
+ "IDN": {
+  "name": "Indonesia",
+  "gha": 1.66,
+  "year": 2025
+ },
+ "IRQ": {
+  "name": "Iraq",
+  "gha": 2.02,
+  "year": 2025
+ },
+ "ISR": {
+  "name": "Israel",
+  "gha": 3.98,
+  "year": 2025
+ },
+ "ITA": {
+  "name": "Italy",
+  "gha": 3.97,
+  "year": 2025
+ },
+ "JAM": {
+  "name": "Jamaica",
+  "gha": 1.95,
+  "year": 2025
+ },
+ "JPN": {
+  "name": "Japan",
+  "gha": 3.94,
+  "year": 2025
+ },
+ "JOR": {
+  "name": "Jordan",
+  "gha": 1.38,
+  "year": 2025
+ },
+ "KEN": {
+  "name": "Kenya",
+  "gha": 0.99,
+  "year": 2025
+ },
+ "KOR": {
+  "name": "Korea, Republic of",
+  "gha": 5.11,
+  "year": 2025
+ },
+ "LAO": {
+  "name": "Lao People's Democratic Republic",
+  "gha": 0.94,
+  "year": 2025
+ },
+ "LVA": {
+  "name": "Latvia",
+  "gha": 6.52,
+  "year": 2025
+ },
+ "LBN": {
+  "name": "Lebanon",
+  "gha": 2.16,
+  "year": 2025
+ },
+ "LBR": {
+  "name": "Liberia",
+  "gha": 1.45,
+  "year": 2025
+ },
+ "LTU": {
+  "name": "Lithuania",
+  "gha": 5.71,
+  "year": 2025
+ },
+ "LUX": {
+  "name": "Luxembourg",
+  "gha": 10.12,
+  "year": 2025
+ },
+ "MDG": {
+  "name": "Madagascar",
+  "gha": 0.67,
+  "year": 2025
+ },
+ "MWI": {
+  "name": "Malawi",
+  "gha": 0.78,
+  "year": 2025
+ },
+ "MYS": {
+  "name": "Malaysia",
+  "gha": 4.11,
+  "year": 2025
+ },
+ "MLI": {
+  "name": "Mali",
+  "gha": 1.1,
+  "year": 2025
+ },
+ "MLT": {
+  "name": "Malta",
+  "gha": 5.66,
+  "year": 2025
+ },
+ "MUS": {
+  "name": "Mauritius",
+  "gha": 3.96,
+  "year": 2025
+ },
+ "MEX": {
+  "name": "Mexico",
+  "gha": 2.65,
+  "year": 2025
+ },
+ "MNG": {
+  "name": "Mongolia",
+  "gha": 7.53,
+  "year": 2025
+ },
+ "MNE": {
+  "name": "Montenegro",
+  "gha": 4.93,
+  "year": 2025
+ },
+ "MOZ": {
+  "name": "Mozambique",
+  "gha": 0.59,
+  "year": 2025
+ },
+ "MMR": {
+  "name": "Myanmar",
+  "gha": 1.1,
+  "year": 2025
+ },
+ "NPL": {
+  "name": "Nepal",
+  "gha": 0.89,
+  "year": 2025
+ },
+ "NER": {
+  "name": "Niger",
+  "gha": 1.17,
+  "year": 2025
+ },
+ "NGA": {
+  "name": "Nigeria",
+  "gha": 0.74,
+  "year": 2025
+ },
+ "NOR": {
+  "name": "Norway",
+  "gha": 4.41,
+  "year": 2025
+ },
+ "OMN": {
+  "name": "Oman",
+  "gha": 4.94,
+  "year": 2025
+ },
+ "PAK": {
+  "name": "Pakistan",
+  "gha": 0.72,
+  "year": 2025
+ },
+ "PRY": {
+  "name": "Paraguay",
+  "gha": 2.37,
+  "year": 2025
+ },
+ "PER": {
+  "name": "Peru",
+  "gha": 2.32,
+  "year": 2025
+ },
+ "PHL": {
+  "name": "Philippines",
+  "gha": 1.37,
+  "year": 2025
+ },
+ "POL": {
+  "name": "Poland",
+  "gha": 4.34,
+  "year": 2025
+ },
+ "PRT": {
+  "name": "Portugal",
+  "gha": 4.26,
+  "year": 2025
+ },
+ "QAT": {
+  "name": "Qatar",
+  "gha": 11.73,
+  "year": 2025
+ },
+ "MKD": {
+  "name": "Republic of North Macedonia",
+  "gha": 3.39,
+  "year": 2025
+ },
+ "ROU": {
+  "name": "Romania",
+  "gha": 3.05,
+  "year": 2025
+ },
+ "RUS": {
+  "name": "Russian Federation",
+  "gha": 5.39,
+  "year": 2025
+ },
+ "RWA": {
+  "name": "Rwanda",
+  "gha": 0.81,
+  "year": 2025
+ },
+ "LCA": {
+  "name": "Saint Lucia",
+  "gha": 2.72,
+  "year": 2025
+ },
+ "WSM": {
+  "name": "Samoa",
+  "gha": 2.29,
+  "year": 2025
+ },
+ "SEN": {
+  "name": "Senegal",
+  "gha": 1.5,
+  "year": 2025
+ },
+ "SRB": {
+  "name": "Serbia",
+  "gha": 4.25,
+  "year": 2025
+ },
+ "SCG": {
+  "name": "Serbia and Montenegro",
+  "gha": 3.42,
+  "year": 2005
+ },
+ "SLE": {
+  "name": "Sierra Leone",
+  "gha": 0.97,
+  "year": 2025
+ },
+ "SVK": {
+  "name": "Slovakia",
+  "gha": 4.02,
+  "year": 2025
+ },
+ "SVN": {
+  "name": "Slovenia",
+  "gha": 5.39,
+  "year": 2025
+ },
+ "SOM": {
+  "name": "Somalia",
+  "gha": 0.8,
+  "year": 2025
+ },
+ "ZAF": {
+  "name": "South Africa",
+  "gha": 2.56,
+  "year": 2025
+ },
+ "ESP": {
+  "name": "Spain",
+  "gha": 3.18,
+  "year": 2025
+ },
+ "LKA": {
+  "name": "Sri Lanka",
+  "gha": 1.27,
+  "year": 2025
+ },
+ "PSE": {
+  "name": "State of Palestine",
+  "gha": 1.28,
+  "year": 2022
+ },
+ "SDN": {
+  "name": "Sudan",
+  "gha": 1.44,
+  "year": 2022
+ },
+ "SWE": {
+  "name": "Sweden",
+  "gha": 5.05,
+  "year": 2025
+ },
+ "CHE": {
+  "name": "Switzerland",
+  "gha": 3.87,
+  "year": 2025
+ },
+ "SYR": {
+  "name": "Syrian Arab Republic",
+  "gha": 0.8,
+  "year": 2025
+ },
+ "TJK": {
+  "name": "Tajikistan",
+  "gha": 1.03,
+  "year": 2025
+ },
+ "TZA": {
+  "name": "Tanzania, United Republic of",
+  "gha": 0.97,
+  "year": 2025
+ },
+ "THA": {
+  "name": "Thailand",
+  "gha": 2.46,
+  "year": 2025
+ },
+ "TLS": {
+  "name": "Timor-Leste",
+  "gha": 0.89,
+  "year": 2025
+ },
+ "TGO": {
+  "name": "Togo",
+  "gha": 1.07,
+  "year": 2025
+ },
+ "TON": {
+  "name": "Tonga",
+  "gha": 3.76,
+  "year": 2025
+ },
+ "TUN": {
+  "name": "Tunisia",
+  "gha": 1.63,
+  "year": 2025
+ },
+ "TUR": {
+  "name": "T\u00fcrkiye",
+  "gha": 3.18,
+  "year": 2025
+ },
+ "TKM": {
+  "name": "Turkmenistan",
+  "gha": 4.23,
+  "year": 2025
+ },
+ "UGA": {
+  "name": "Uganda",
+  "gha": 1.06,
+  "year": 2025
+ },
+ "GBR": {
+  "name": "United Kingdom",
+  "gha": 3.41,
+  "year": 2025
+ },
+ "USA": {
+  "name": "United States of America",
+  "gha": 7.05,
+  "year": 2025
+ },
+ "UZB": {
+  "name": "Uzbekistan",
+  "gha": 2.3,
+  "year": 2025
+ },
+ "VEN": {
+  "name": "Venezuela, Bolivarian Republic of",
+  "gha": 1.93,
+  "year": 2025
+ },
+ "VNM": {
+  "name": "Viet Nam",
+  "gha": 2.3,
+  "year": 2025
+ },
+ "YEM": {
+  "name": "Yemen",
+  "gha": 0.51,
+  "year": 2025
+ },
+ "YUG": {
+  "name": "Yugoslav SFR",
+  "gha": 1.61,
+  "year": 1991
+ },
+ "ZMB": {
+  "name": "Zambia",
+  "gha": 1.11,
+  "year": 2025
+ },
+ "ZWE": {
+  "name": "Zimbabwe",
+  "gha": 1.24,
+  "year": 2025
+ }
+}
