@@ -220,13 +220,8 @@ function render(social, eco, country){
     return (state.sel.ring===ring && state.sel.key===key) ? 1 : 0.45;
   }
 
-  /* defs: curved label paths + ring title arcs */
+  /* defs: curved label paths (outer ring only — the hole stays clean) + ring title arcs */
   var defs = elNS('defs', {});
-  SOCIAL.forEach(function(s, i){
-    var mid = i*arcS + arcS/2;
-    var p = elNS('path', { id:'soc-lp-'+i, d:labelArc(DC.K, mid, arcS*0.92), fill:'none' });
-    defs.appendChild(p);
-  });
   ECO.forEach(function(e, i){
     var mid = i*arcE + arcE/2;
     var p = elNS('path', { id:'eco-lp-'+i, d:labelArc(DC.V, mid, arcE*0.85), fill:'none' });
@@ -285,6 +280,8 @@ function render(social, eco, country){
     }
     (function(ee){
       g.addEventListener('click', function(){ selectWedge('eco', ee.key); });
+      g.addEventListener('mouseover', function(){ hoverWedge('eco', ee.key); });
+      g.addEventListener('mouseleave', restoreCenter);
     })(e);
     svg.appendChild(g);
   });
@@ -308,16 +305,11 @@ function render(social, eco, country){
       opacity:dimmed('soc', s.key), stroke:DC.CREAM, 'stroke-width':1.2 });
     path.appendChild(titleEl(tip+' — '+s.desc+' Source: World Bank '+s.wb+' (live)'));
     g.appendChild(path);
-    if(!missing && !isSafe){
-      var lr = Math.min(DC.SZ-16, rIn+16), lp = polar(lr, mid);
-      var t = elNS('text', { x:lp.x.toFixed(1), y:lp.y.toFixed(1), 'class':'wedge-num',
-        'text-anchor':'middle', 'dominant-baseline':'middle', fill:DC.BAND_GREEN_TEXT,
-        transform:'rotate('+(mid*180/Math.PI+180).toFixed(1)+' '+lp.x.toFixed(1)+' '+lp.y.toFixed(1)+')' });
-      t.textContent = '−'+fmtPct(v);
-      g.appendChild(t);
-    }
+    /* no text on social wedges — hover/tap shows the info in the middle instead */
     (function(ss){
       g.addEventListener('click', function(){ selectWedge('soc', ss.key); });
+      g.addEventListener('mouseover', function(){ hoverWedge('soc', ss.key); });
+      g.addEventListener('mouseleave', restoreCenter);
     })(s);
     svg.appendChild(g);
   });
@@ -333,37 +325,115 @@ function render(social, eco, country){
   ECO.forEach(function(e, i){
     svg.appendChild(textPath('eco-lp-'+i, e.short.toLowerCase(), 'cat-label', DC.INK));
   });
-  SOCIAL.forEach(function(s, i){
-    svg.appendChild(textPath('soc-lp-'+i, s.short.toLowerCase(), 'cat-label inner', DC.INK));
-  });
   svg.appendChild(textPath('ring-eco-arc', 'ECOLOGICAL  CEILING', 'ring-title', DC.BAND_GREY_TEXT));
   svg.appendChild(textPath('ring-green-arc', 'the safe and just space for humanity', 'band-headline', DC.BAND_GREEN_TEXT));
   svg.appendChild(textPath('ring-soc-arc', 'SOCIAL  FOUNDATION', 'ring-title', DC.BAND_GREY_TEXT));
 
-  /* ---- centre: country + score ---- */
-  var metS = social.filter(function(r){ return r.shortfall!==null && r.shortfall!==undefined && r.shortfall<=0.5; }).length;
-  var metE = eco.filter(function(r){ return r.ratio!==null && r.ratio!==undefined && r.ratio<=1; }).length;
-  var totS = social.filter(function(r){ return r.shortfall!==null && r.shortfall!==undefined; }).length;
-  var totE = eco.filter(function(r){ return r.ratio!==null && r.ratio!==undefined; }).length;
-  var lines = splitLines(country.name, 15);
-  lines.forEach(function(ln, idx){
-    var t = elNS('text', { x:DC.C, y:(DC.C-24+idx*36), 'text-anchor':'middle',
-      'class':'center-name' });
-    t.textContent = ln;
-    svg.appendChild(t);
-  });
-  function centerSub(y, str, ok){
-    var t = elNS('text', { x:DC.C, y:y, 'text-anchor':'middle', 'class':'center-sub',
-      fill: ok ? DC.BAND_GREEN : DC.CORAL });
-    t.textContent = str;
-    svg.appendChild(t);
-  }
-  centerSub(DC.C+52, country.id, true);
-  centerSub(DC.C+78, metS+'/'+totS+' foundations met', metS===totS && totS>0);
-  centerSub(DC.C+102, metE+'/'+totE+' ceilings respected', metE===totE && totE>0);
+  /* ---- centre: a readout group, repainted on hover/select ---- */
+  var centerG = elNS('g', { id:'center-g' });
+  svg.appendChild(centerG);
 
   box.appendChild(svg);
   if(loader) loader.hidden = true;
+  state.centerG = centerG;
+  state.centerCountry = country;
+  state.centerStats = {
+    metS: social.filter(function(r){ return r.shortfall!==null && r.shortfall!==undefined && r.shortfall<=0.5; }).length,
+    metE: eco.filter(function(r){ return r.ratio!==null && r.ratio!==undefined && r.ratio<=1; }).length,
+    totS: social.filter(function(r){ return r.shortfall!==null && r.shortfall!==undefined; }).length,
+    totE: eco.filter(function(r){ return r.ratio!==null && r.ratio!==undefined; }).length
+  };
+  state.centerData = { social:social, eco:eco };
+  if(state.sel) paintCenterInfo(state.sel.ring, state.sel.key);
+  else paintCenterDefault();
+}
+
+function centerText(str, x, y, cls, fill, size){
+  var t = elNS('text', { x:x, y:y, 'text-anchor':'middle',
+    'dominant-baseline':'middle', 'class':cls });
+  if(fill) t.setAttribute('fill', fill);
+  if(size) t.setAttribute('font-size', size);
+  t.textContent = str;
+  state.centerG.appendChild(t);
+  return t;
+}
+function clearCenter(){
+  var g = state.centerG;
+  while(g.firstChild) g.removeChild(g.firstChild);
+}
+
+/* default view: country + score */
+function paintCenterDefault(){
+  if(!state.centerG) return;
+  clearCenter();
+  var c = state.centerCountry, s = state.centerStats;
+  splitLines(c.name, 15).forEach(function(ln, idx){
+    centerText(ln, DC.C, DC.C-30+idx*36, 'center-name');
+  });
+  centerText(c.id, DC.C, DC.C+46, 'center-sub', '#5a6360');
+  var okS = s.metS===s.totS && s.totS>0, okE = s.metE===s.totE && s.totE>0;
+  centerText(s.metS+'/'+s.totS+' foundations met', DC.C, DC.C+74, 'center-sub',
+    okS ? DC.BAND_GREEN : DC.CORAL);
+  centerText(s.metE+'/'+s.totE+' ceilings respected', DC.C, DC.C+100, 'center-sub',
+    okE ? DC.BAND_GREEN : DC.CORAL);
+}
+
+function lookupDef(ring, key){
+  var arr = ring==='soc' ? SOCIAL : ECO;
+  for(var i=0;i<arr.length;i++) if(arr[i].key===key) return arr[i];
+  return null;
+}
+function lookupRec(ring, key){
+  var arr = ring==='soc' ? state.centerData.social : state.centerData.eco;
+  for(var i=0;i<arr.length;i++) if(arr[i].key===key) return arr[i];
+  return null;
+}
+
+/* info view: hovered/selected dimension, big and readable */
+function paintCenterInfo(ring, key){
+  if(!state.centerG) return;
+  var def = lookupDef(ring, key), rec = lookupRec(ring, key);
+  if(!def || !rec) return;
+  clearCenter();
+  splitLines(def.label, 16).forEach(function(ln, idx){
+    centerText(ln, DC.C, DC.C-64+idx*34, 'center-name');
+  });
+  if(ring === 'soc'){
+    if(rec.shortfall===null || rec.shortfall===undefined){
+      centerText('no data', DC.C, DC.C+6, 'center-value', DC.MISSING);
+      centerText(def.wb+' · —', DC.C, DC.C+40, 'center-sub2');
+    } else if(rec.shortfall <= 0.5){
+      centerText('within bounds', DC.C, DC.C+6, 'center-value', DC.BAND_GREEN);
+      centerText(def.fmt(rec.value)+' · '+rec.year, DC.C, DC.C+40, 'center-sub2');
+    } else {
+      centerText('−'+Math.round(rec.shortfall)+'%', DC.C, DC.C+8, 'center-value', DC.CORAL);
+      centerText(def.fmt(rec.value)+' · '+rec.year, DC.C, DC.C+44, 'center-sub2');
+    }
+  } else {
+    if(rec.ratio===null || rec.ratio===undefined){
+      centerText('no data', DC.C, DC.C+6, 'center-value', DC.MISSING);
+      centerText('—', DC.C, DC.C+40, 'center-sub2');
+    } else if(rec.ratio <= 1){
+      centerText('×'+rec.ratio.toFixed(2), DC.C, DC.C+8, 'center-value', DC.BAND_GREEN);
+      centerText(fmtVal(rec.value)+' '+def.unit+' · '+rec.year+' · ÷'+def.boundary, DC.C, DC.C+44, 'center-sub2');
+    } else {
+      centerText('+'+fmtPct((rec.ratio-1)*100), DC.C, DC.C+8, 'center-value', DC.CORAL);
+      centerText(fmtVal(rec.value)+' '+def.unit+' · '+rec.year+' · ÷'+def.boundary, DC.C, DC.C+44, 'center-sub2');
+    }
+  }
+}
+
+var hoverKey = null;
+function hoverWedge(ring, key){
+  if(hoverKey === ring+':'+key) return;
+  hoverKey = ring+':'+key;
+  paintCenterInfo(ring, key);
+}
+function restoreCenter(){
+  hoverKey = null;
+  if(!state.centerG) return;
+  if(state.sel) paintCenterInfo(state.sel.ring, state.sel.key);
+  else paintCenterDefault();
 }
 
 function svgEl(tag, attrs){ return elNS(tag, attrs); }
